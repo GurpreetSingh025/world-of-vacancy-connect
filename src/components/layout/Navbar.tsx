@@ -23,7 +23,8 @@ export const Navbar = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 group">
             <div className="w-10 h-10 bg-gradient-to-br from-teal to-teal-light rounded-lg flex items-center justify-center shadow-lg group-hover:shadow-xl transition-shadow">
-              <Briefcase className="w-5 h-5 text-white" />
+              {/* <Briefcase className="w-5 h-5 text-white" /> */}
+              <img src="./logo.JPG" />
             </div>
             <div className="hidden sm:block">
               <span className="text-lg font-display font-bold text-primary">World Of</span>
